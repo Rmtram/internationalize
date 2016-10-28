@@ -20,7 +20,7 @@ class Internationalize {
 
   setLocale(locale) {
     if (!_.isString(locale)) {
-      throw new Error('invalid variable type, allowed only a string.')
+      throw new Error('invalid variable type, allowed only a string.');
     }
     this._locale = locale;
   }
@@ -29,3 +29,5 @@ class Internationalize {
     return this._locale || this._options.defaultLocale;
   }
 }
+
+module.exports = new Internationalize();
