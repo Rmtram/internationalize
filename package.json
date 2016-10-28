@@ -19,5 +19,9 @@
   "dependencies": {
     "lodash": "^4.16.4",
     "sprintf": "^0.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-leonis": "github:leonis/eslint-config-leonis"
   }
 }
